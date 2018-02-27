@@ -7,21 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		818248E01EDC1A7400394B76 /* moa_grounddd.svg in Resources */ = {isa = PBXBuildFile; fileRef = 818248DF1EDC1A7400394B76 /* moa_grounddd.svg */; };
+		819455AB1EDAD72F00F6F2B1 /* moa_ground.svg in Resources */ = {isa = PBXBuildFile; fileRef = 819455AA1EDAD72F00F6F2B1 /* moa_ground.svg */; };
+		81962BC41ED6E184001441CB /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81962BC31ED6E184001441CB /* MapViewModel.swift */; };
 		81BD095B1ECC447A00A0BC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD095A1ECC447A00A0BC44 /* AppDelegate.swift */; };
-		81BD095D1ECC447A00A0BC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD095C1ECC447A00A0BC44 /* ViewController.swift */; };
+		81BD095D1ECC447A00A0BC44 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD095C1ECC447A00A0BC44 /* MapView.swift */; };
 		81BD09601ECC447A00A0BC44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BD095E1ECC447A00A0BC44 /* Main.storyboard */; };
 		81BD09621ECC447A00A0BC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09611ECC447A00A0BC44 /* Assets.xcassets */; };
 		81BD09651ECC447A00A0BC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09631ECC447A00A0BC44 /* LaunchScreen.storyboard */; };
+		81BD09751ECC44D200A0BC44 /* FSSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD09701ECC44D200A0BC44 /* FSSVG.m */; };
+		81BD09761ECC44D200A0BC44 /* FSSVGPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD09721ECC44D200A0BC44 /* FSSVGPathElement.m */; };
+		81BD09771ECC44D200A0BC44 /* FSSVGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD09741ECC44D200A0BC44 /* FSSVGUtils.m */; };
+		81BD097A1ECC44D900A0BC44 /* FSInteractiveMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD09791ECC44D900A0BC44 /* FSInteractiveMapView.m */; };
+		81BD098A1ECC45F500A0BC44 /* austria-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD097D1ECC45F500A0BC44 /* austria-low.svg */; };
+		81BD098B1ECC45F500A0BC44 /* beef-cuts.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD097E1ECC45F500A0BC44 /* beef-cuts.svg */; };
+		81BD098C1ECC45F500A0BC44 /* china-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD097F1ECC45F500A0BC44 /* china-low.svg */; };
+		81BD098D1ECC45F500A0BC44 /* europe.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09801ECC45F500A0BC44 /* europe.svg */; };
+		81BD098E1ECC45F500A0BC44 /* france-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09811ECC45F500A0BC44 /* france-low.svg */; };
+		81BD098F1ECC45F500A0BC44 /* germany.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09821ECC45F500A0BC44 /* germany.svg */; };
+		81BD09901ECC45F500A0BC44 /* india-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09831ECC45F500A0BC44 /* india-low.svg */; };
+		81BD09911ECC45F500A0BC44 /* italy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09841ECC45F500A0BC44 /* italy.svg */; };
+		81BD09921ECC45F500A0BC44 /* uk-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09851ECC45F500A0BC44 /* uk-low.svg */; };
+		81BD09931ECC45F500A0BC44 /* usa-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09861ECC45F500A0BC44 /* usa-low.svg */; };
+		81BD09941ECC45F500A0BC44 /* world-continents-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09871ECC45F500A0BC44 /* world-continents-low.svg */; };
+		81BD09951ECC45F500A0BC44 /* world-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81BD09881ECC45F500A0BC44 /* world-low.svg */; };
+		81BD09991ECC564600A0BC44 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD09981ECC564600A0BC44 /* MapController.swift */; };
+		81CDB0A6203AFB7B00F377B7 /* download (4)-1447863674-1448288635.svg in Resources */ = {isa = PBXBuildFile; fileRef = 81CDB0A5203AFB7B00F377B7 /* download (4)-1447863674-1448288635.svg */; };
+		81FB53C61ED6E490004CBB16 /* GetServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB53C51ED6E490004CBB16 /* GetServerData.swift */; };
+		81FB53C81ED6E4C0004CBB16 /* UrlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB53C71ED6E4C0004CBB16 /* UrlData.swift */; };
+		81FB53CA1ED6E625004CBB16 /* SingleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB53C91ED6E625004CBB16 /* SingleClass.swift */; };
+		81FB53CE1ED6ED1C004CBB16 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB53CD1ED6ED1C004CBB16 /* Utility.swift */; };
+		81FB53D01ED6F42B004CBB16 /* FitRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB53CF1ED6F42B004CBB16 /* FitRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		818248DF1EDC1A7400394B76 /* moa_grounddd.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = moa_grounddd.svg; sourceTree = "<group>"; };
+		819455AA1EDAD72F00F6F2B1 /* moa_ground.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moa_ground.svg; sourceTree = "<group>"; };
+		81962BC31ED6E184001441CB /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		81BD09571ECC447A00A0BC44 /* interactiveMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = interactiveMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BD095A1ECC447A00A0BC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81BD095C1ECC447A00A0BC44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81BD095C1ECC447A00A0BC44 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		81BD095F1ECC447A00A0BC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81BD09611ECC447A00A0BC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81BD09641ECC447A00A0BC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81BD09661ECC447A00A0BC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BD096E1ECC44D100A0BC44 /* interactiveMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "interactiveMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		81BD096F1ECC44D200A0BC44 /* FSSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSVG.h; sourceTree = "<group>"; };
+		81BD09701ECC44D200A0BC44 /* FSSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSVG.m; sourceTree = "<group>"; };
+		81BD09711ECC44D200A0BC44 /* FSSVGPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSVGPathElement.h; sourceTree = "<group>"; };
+		81BD09721ECC44D200A0BC44 /* FSSVGPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSVGPathElement.m; sourceTree = "<group>"; };
+		81BD09731ECC44D200A0BC44 /* FSSVGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSVGUtils.h; sourceTree = "<group>"; };
+		81BD09741ECC44D200A0BC44 /* FSSVGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSVGUtils.m; sourceTree = "<group>"; };
+		81BD09781ECC44D900A0BC44 /* FSInteractiveMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSInteractiveMapView.h; sourceTree = "<group>"; };
+		81BD09791ECC44D900A0BC44 /* FSInteractiveMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSInteractiveMapView.m; sourceTree = "<group>"; };
+		81BD097D1ECC45F500A0BC44 /* austria-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "austria-low.svg"; sourceTree = "<group>"; };
+		81BD097E1ECC45F500A0BC44 /* beef-cuts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "beef-cuts.svg"; sourceTree = "<group>"; };
+		81BD097F1ECC45F500A0BC44 /* china-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "china-low.svg"; sourceTree = "<group>"; };
+		81BD09801ECC45F500A0BC44 /* europe.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = europe.svg; sourceTree = "<group>"; };
+		81BD09811ECC45F500A0BC44 /* france-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "france-low.svg"; sourceTree = "<group>"; };
+		81BD09821ECC45F500A0BC44 /* germany.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = germany.svg; sourceTree = "<group>"; };
+		81BD09831ECC45F500A0BC44 /* india-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "india-low.svg"; sourceTree = "<group>"; };
+		81BD09841ECC45F500A0BC44 /* italy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = italy.svg; sourceTree = "<group>"; };
+		81BD09851ECC45F500A0BC44 /* uk-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "uk-low.svg"; sourceTree = "<group>"; };
+		81BD09861ECC45F500A0BC44 /* usa-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "usa-low.svg"; sourceTree = "<group>"; };
+		81BD09871ECC45F500A0BC44 /* world-continents-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "world-continents-low.svg"; sourceTree = "<group>"; };
+		81BD09881ECC45F500A0BC44 /* world-low.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "world-low.svg"; sourceTree = "<group>"; };
+		81BD09981ECC564600A0BC44 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		81CDB0A5203AFB7B00F377B7 /* download (4)-1447863674-1448288635.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "download (4)-1447863674-1448288635.svg"; path = "/Users/Ragaie/Desktop/example/interactiveMap/download (4)-1447863674-1448288635.svg"; sourceTree = "<absolute>"; };
+		81FB53C51ED6E490004CBB16 /* GetServerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetServerData.swift; sourceTree = "<group>"; };
+		81FB53C71ED6E4C0004CBB16 /* UrlData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlData.swift; sourceTree = "<group>"; };
+		81FB53C91ED6E625004CBB16 /* SingleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleClass.swift; sourceTree = "<group>"; };
+		81FB53CD1ED6ED1C004CBB16 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		81FB53CF1ED6F42B004CBB16 /* FitRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81962BC51ED6E18D001441CB /* getData from server */ = {
+			isa = PBXGroup;
+			children = (
+				81FB53C71ED6E4C0004CBB16 /* UrlData.swift */,
+				81FB53C91ED6E625004CBB16 /* SingleClass.swift */,
+				81FB53C51ED6E490004CBB16 /* GetServerData.swift */,
+			);
+			name = "getData from server";
+			sourceTree = "<group>";
+		};
 		81BD094E1ECC447A00A0BC44 = {
 			isa = PBXGroup;
 			children = (
+				81CDB0A5203AFB7B00F377B7 /* download (4)-1447863674-1448288635.svg */,
+				81FB53CB1ED6ECE3004CBB16 /* Model */,
+				81962BC51ED6E18D001441CB /* getData from server */,
+				81BD09961ECC45F800A0BC44 /* SVGFiles */,
+				81BD097B1ECC44FC00A0BC44 /* Bridging-Header */,
+				81BD096C1ECC448000A0BC44 /* mapLib */,
 				81BD09591ECC447A00A0BC44 /* interactiveMap */,
 				81BD09581ECC447A00A0BC44 /* Products */,
 			);
@@ -54,14 +127,85 @@
 		81BD09591ECC447A00A0BC44 /* interactiveMap */ = {
 			isa = PBXGroup;
 			children = (
+				81BD09971ECC561600A0BC44 /* viewMap show */,
 				81BD095A1ECC447A00A0BC44 /* AppDelegate.swift */,
-				81BD095C1ECC447A00A0BC44 /* ViewController.swift */,
 				81BD095E1ECC447A00A0BC44 /* Main.storyboard */,
 				81BD09611ECC447A00A0BC44 /* Assets.xcassets */,
 				81BD09631ECC447A00A0BC44 /* LaunchScreen.storyboard */,
 				81BD09661ECC447A00A0BC44 /* Info.plist */,
 			);
 			path = interactiveMap;
+			sourceTree = "<group>";
+		};
+		81BD096C1ECC448000A0BC44 /* mapLib */ = {
+			isa = PBXGroup;
+			children = (
+				81BD09781ECC44D900A0BC44 /* FSInteractiveMapView.h */,
+				81BD09791ECC44D900A0BC44 /* FSInteractiveMapView.m */,
+				81BD096D1ECC44BC00A0BC44 /* FSSVG */,
+			);
+			name = mapLib;
+			sourceTree = "<group>";
+		};
+		81BD096D1ECC44BC00A0BC44 /* FSSVG */ = {
+			isa = PBXGroup;
+			children = (
+				81BD096F1ECC44D200A0BC44 /* FSSVG.h */,
+				81BD09701ECC44D200A0BC44 /* FSSVG.m */,
+				81BD09711ECC44D200A0BC44 /* FSSVGPathElement.h */,
+				81BD09721ECC44D200A0BC44 /* FSSVGPathElement.m */,
+				81BD09731ECC44D200A0BC44 /* FSSVGUtils.h */,
+				81BD09741ECC44D200A0BC44 /* FSSVGUtils.m */,
+			);
+			name = FSSVG;
+			sourceTree = "<group>";
+		};
+		81BD097B1ECC44FC00A0BC44 /* Bridging-Header */ = {
+			isa = PBXGroup;
+			children = (
+				81BD096E1ECC44D100A0BC44 /* interactiveMap-Bridging-Header.h */,
+			);
+			name = "Bridging-Header";
+			sourceTree = "<group>";
+		};
+		81BD09961ECC45F800A0BC44 /* SVGFiles */ = {
+			isa = PBXGroup;
+			children = (
+				818248DF1EDC1A7400394B76 /* moa_grounddd.svg */,
+				819455AA1EDAD72F00F6F2B1 /* moa_ground.svg */,
+				81BD097D1ECC45F500A0BC44 /* austria-low.svg */,
+				81BD097E1ECC45F500A0BC44 /* beef-cuts.svg */,
+				81BD097F1ECC45F500A0BC44 /* china-low.svg */,
+				81BD09801ECC45F500A0BC44 /* europe.svg */,
+				81BD09811ECC45F500A0BC44 /* france-low.svg */,
+				81BD09821ECC45F500A0BC44 /* germany.svg */,
+				81BD09831ECC45F500A0BC44 /* india-low.svg */,
+				81BD09841ECC45F500A0BC44 /* italy.svg */,
+				81BD09851ECC45F500A0BC44 /* uk-low.svg */,
+				81BD09861ECC45F500A0BC44 /* usa-low.svg */,
+				81BD09871ECC45F500A0BC44 /* world-continents-low.svg */,
+				81BD09881ECC45F500A0BC44 /* world-low.svg */,
+			);
+			name = SVGFiles;
+			sourceTree = "<group>";
+		};
+		81BD09971ECC561600A0BC44 /* viewMap show */ = {
+			isa = PBXGroup;
+			children = (
+				81BD095C1ECC447A00A0BC44 /* MapView.swift */,
+				81BD09981ECC564600A0BC44 /* MapController.swift */,
+				81962BC31ED6E184001441CB /* MapViewModel.swift */,
+			);
+			name = "viewMap show";
+			sourceTree = "<group>";
+		};
+		81FB53CB1ED6ECE3004CBB16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81FB53CD1ED6ED1C004CBB16 /* Utility.swift */,
+				81FB53CF1ED6F42B004CBB16 /* FitRectangle.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +240,8 @@
 				TargetAttributes = {
 					81BD09561ECC447A00A0BC44 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RKVSSJM9UR;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +269,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BD098D1ECC45F500A0BC44 /* europe.svg in Resources */,
+				81BD09921ECC45F500A0BC44 /* uk-low.svg in Resources */,
+				81CDB0A6203AFB7B00F377B7 /* download (4)-1447863674-1448288635.svg in Resources */,
+				81BD09951ECC45F500A0BC44 /* world-low.svg in Resources */,
+				81BD09941ECC45F500A0BC44 /* world-continents-low.svg in Resources */,
 				81BD09651ECC447A00A0BC44 /* LaunchScreen.storyboard in Resources */,
+				818248E01EDC1A7400394B76 /* moa_grounddd.svg in Resources */,
+				81BD09911ECC45F500A0BC44 /* italy.svg in Resources */,
+				81BD098B1ECC45F500A0BC44 /* beef-cuts.svg in Resources */,
+				81BD09931ECC45F500A0BC44 /* usa-low.svg in Resources */,
 				81BD09621ECC447A00A0BC44 /* Assets.xcassets in Resources */,
+				81BD09901ECC45F500A0BC44 /* india-low.svg in Resources */,
 				81BD09601ECC447A00A0BC44 /* Main.storyboard in Resources */,
+				819455AB1EDAD72F00F6F2B1 /* moa_ground.svg in Resources */,
+				81BD098C1ECC45F500A0BC44 /* china-low.svg in Resources */,
+				81BD098F1ECC45F500A0BC44 /* germany.svg in Resources */,
+				81BD098A1ECC45F500A0BC44 /* austria-low.svg in Resources */,
+				81BD098E1ECC45F500A0BC44 /* france-low.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +297,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81BD095D1ECC447A00A0BC44 /* ViewController.swift in Sources */,
+				81BD09751ECC44D200A0BC44 /* FSSVG.m in Sources */,
+				81BD09991ECC564600A0BC44 /* MapController.swift in Sources */,
+				81FB53D01ED6F42B004CBB16 /* FitRectangle.swift in Sources */,
+				81BD097A1ECC44D900A0BC44 /* FSInteractiveMapView.m in Sources */,
+				81FB53C81ED6E4C0004CBB16 /* UrlData.swift in Sources */,
+				81BD09761ECC44D200A0BC44 /* FSSVGPathElement.m in Sources */,
+				81FB53CA1ED6E625004CBB16 /* SingleClass.swift in Sources */,
+				81BD095D1ECC447A00A0BC44 /* MapView.swift in Sources */,
+				81BD09771ECC44D200A0BC44 /* FSSVGUtils.m in Sources */,
+				81FB53CE1ED6ED1C004CBB16 /* Utility.swift in Sources */,
+				81FB53C61ED6E490004CBB16 /* GetServerData.swift in Sources */,
 				81BD095B1ECC447A00A0BC44 /* AppDelegate.swift in Sources */,
+				81962BC41ED6E184001441CB /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +432,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = interactiveMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ra.interactiveMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "interactiveMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = interactiveMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ra.interactiveMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "interactiveMap-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +478,7 @@
 				81BD096B1ECC447A00A0BC44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
