@@ -21,7 +21,10 @@
 - (void)loadMap:(NSString*)mapName withColors:(NSDictionary*)colorsDict;
 // add by ragaie
 - (void)loadMap:(NSString*)mapFilePath ;
+- (CALayer*)layerWithId:(NSString *)identifier;
 
+
+- (UIBezierPath*)PathWithId:(NSString *)identifier;
 
 
 - (void)loadMap:(NSString*)mapName withData:(NSDictionary*)data colorAxis:(NSArray*)colors;

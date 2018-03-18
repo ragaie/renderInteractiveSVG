@@ -36,7 +36,69 @@
     self.strokeColor = [UIColor colorWithWhite:0.1 alpha:1];
 }
 
+- (UIBezierPath*)PathWithId:(NSString *)identifier
+{
+    
+    UIBezierPath* path;
+    
+    
+    for(int i=0;i<[_scaledPaths count];i++) {
+        
+        FSSVGPathElement* element = _svg.paths[i];
+        
+        if( [element.identifier isEqualToString:identifier]) {
+            path = _scaledPaths[i];
+            
+            
+        }
+    }
+    
+    
+    
+    return path;
+}
 
+
+- (CAShapeLayer*)layerWithId:(NSString *)identifier
+{
+    CALayer* l =  [[CALayer alloc]init];
+    CAShapeLayer* ll =  [[CAShapeLayer alloc]init];
+    
+    //    var path = item as! FSSVGPathElement
+    //
+    //
+    //
+    //    let shapeLayer = CAShapeLayer()
+    //
+    //    shapeLayer.path =  path.path.cgPath
+    //
+    //
+    
+    for(int i=0;i<[_scaledPaths count];i++) {
+        FSSVGPathElement* element = (FSSVGPathElement*)_svg.paths[i];
+       // NSLog(@" path bound %@",element.path.bounds);
+        NSLog(@"%f",element.path.bounds.origin.x);
+        NSLog(@"%f",element.path.bounds.origin.y);
+
+                NSLog(@"%f",element.path.bounds.size.width);
+        
+                NSLog(@"%f",element.path.bounds.size.height);
+
+        //[self.layer.sublayers[i] isKindOfClass:CALayer.class] && element.fill &&
+        
+//        if( [element.identifier isEqualToString:identifier]) {
+//            // l = (CALayer*)self.layer.sublayers[i];
+//            ll.path = element.path.CGPath;
+//            
+//            
+//        }
+    }
+    
+    return ll;
+}
+
+
+//add by ragaie
 #pragma mark - SVG map loading with all path
 -(void)loadMap:(NSString *)mapFilePath{
     
@@ -44,7 +106,6 @@
     
     for (FSSVGPathElement* path in _svg.paths) {
         // Make the map fits inside the frame
-        
         
         float scaleHorizontal = self.frame.size.width / _svg.bounds.size.width;
         float scaleVertical = self.frame.size.height / _svg.bounds.size.height;
@@ -99,8 +160,10 @@
     
     for (FSSVGPathElement* path in _svg.paths) {
         // Make the map fits inside the frame
-        
-        
+//        NSLog(@"%f",path.path.bounds.size.width);
+//        
+//        NSLog(@"%f",path.path.bounds.size.height);
+
         float scaleHorizontal = self.frame.size.width / _svg.bounds.size.width;
         float scaleVertical = self.frame.size.height / _svg.bounds.size.height;
         

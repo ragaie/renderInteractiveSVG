@@ -240,6 +240,7 @@ class MapController: NSObject,UIGestureRecognizerDelegate {
             
             
             let shapeLayer = CAShapeLayer()
+            
             shapeLayer.path =  path.path.cgPath
             
             

@@ -75,7 +75,18 @@ class MapView: UIViewController {
     func initMapView(){
     
     
-        // svgFile =  FSSVG.init(file: "germany")
+         svgFile =  FSSVG.init(file: "download (4)-1447863674-1448288635")
+        
+        
+        
+        
+        
+        for item in svgFile.paths{
+            var path = item as! FSSVGPathElement
+
+            print(path.path.bounds)
+        
+        }
       
         myController.myModel.svgFile = svgFile
         
@@ -88,14 +99,14 @@ class MapView: UIViewController {
     
       //world-low //moa_ground //germany
         
-        //map.loadMap("download (4)-1447863674-1448288635", withColors: nil)
+        map.loadMap("download (4)-1447863674-1448288635", withColors: nil)
       //  map.loadMap("/Users/Ragaie/Library/Developer/CoreSimulator/Devices/F3FBA441-CF83-4FCB-9C55-0E5AA31CE991/data/Containers/Data/Application/FC0F4D27-2E94-4068-B877-425B93ECC27A/Library/Caches/PlaceFiles/2/(4)-1447863674-1448288635.svg")
        
-    map.loadMap( "/Users/Ragaie/Library/Developer/CoreSimulator/Devices/C672CE07-4FA4-422A-BDE7-52870280154C/data/Containers/Data/Application/9E04D9DC-A2EE-4B24-ACE9-736F10824040/Library/Caches/PlaceFiles/2/download (4)-1447863674-1448288635.svg")
+   // map.loadMap( "/Users/Ragaie/Library/Developer/CoreSimulator/Devices/C672CE07-4FA4-422A-BDE7-52870280154C/data/Containers/Data/Application/9E04D9DC-A2EE-4B24-ACE9-736F10824040/Library/Caches/PlaceFiles/2/download (4)-1447863674-1448288635.svg")
         
        // map.loadMap("download (4)-1447863674-1448288635")
         
-        
+        map.layer(withId: "dd")
         
         map.clickHandler = {(identifier: String?, layer: CAShapeLayer?) -> Void in
             
